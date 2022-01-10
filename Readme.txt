@@ -7,7 +7,7 @@ kubectl create deployment [NAMESPACE] --image=[image name]     (Create a kuberne
 
 kubectl get pods
 
-kubectl expose deployment  [NAMESPACE] --type=LoadBalancer --port=[port]     (Create a kubernetes service type LoadBalanc
+kubectl expose deployment  [NAMESPACE] --type=LoadBalancer --port=[port]     (Create a kubernetes service type LoadBalancer)
 
 minikube ip       (to get ip)
 
